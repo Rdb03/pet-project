@@ -1,0 +1,24 @@
+.main-block {
+    background-image: url("./images/work.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.search-cards {
+    background-color: #ECECEC;
+    margin: 20px;
+    width: 635px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.search-cards p {
+    color: #777777;
+}
+
+.search-cards-title {
+    font-size: 20px;
+    margin: 0;
+}
