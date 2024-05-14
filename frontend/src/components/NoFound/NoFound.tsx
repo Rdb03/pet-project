@@ -1,6 +1,6 @@
 const NoFound = () => {
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       <h1>NO FOUND</h1>
     </div>
   );

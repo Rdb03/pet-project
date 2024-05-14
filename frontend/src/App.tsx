@@ -1,4 +1,5 @@
 import { Container } from "@mui/material";
+import Footer from './components/Footer/Footer.tsx'
 import Header from "./components/Header/Header.tsx";
 import {Route, Routes} from "react-router-dom";
 import Register from "./features/users/Register.tsx";
@@ -22,6 +23,9 @@ const App = () => (
                 </Routes>
             </Container>
         </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
 );
 

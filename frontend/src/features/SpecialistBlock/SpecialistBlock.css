@@ -1,0 +1,21 @@
+.specialist-block {
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+	color: #1870c9;
+	align-items: center;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	padding: 0 200px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	flex-direction: column;
+}
+
+.specialist-img {
+	float: right;
+}
