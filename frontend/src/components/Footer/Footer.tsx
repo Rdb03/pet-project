@@ -19,7 +19,7 @@ const Footer = () => {
 						</h6>
 						<nav className='footer-nav footer-icon-bottom'>
 							<li className='footer-nav-item'>
-								<a className='footer-nav-link'>
+								<a href='/facebook' className='footer-nav-link'>
 									<FacebookIcon />
 								</a>
 							</li>
@@ -29,12 +29,12 @@ const Footer = () => {
 								</a>
 							</li>
 							<li className='footer-nav-item'>
-								<a className='footer-nav-link'>
+								<a href='/instagram' className='footer-nav-link'>
 									<InstagramIcon />
 								</a>
 							</li>
 							<li className='footer-nav-item'>
-								<a className='footer-nav-link'>
+								<a href='/whatsapp' className='footer-nav-link'>
 									<WhatsAppIcon />
 								</a>
 							</li>

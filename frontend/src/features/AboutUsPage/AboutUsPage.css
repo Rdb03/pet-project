@@ -42,12 +42,12 @@
 
 .user-icon {
 	background-image: url("./images/user.png");
-
+	
 }
 
 .search-icon {
 	background-image: url("./images/search.png");
-
+	
 }
 
 .star-icon {
@@ -70,13 +70,56 @@
 }
 
 .benefit-block-card {
-	width: 400px;
+	width: 450px;
 	background: #ECECEC;
 	margin: 50px;
 	padding: 20px;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
 }
 
 .card-title {
 	font-size: 20px;
+}
+
+.key-icon {
+	background-image: url("./images/key.png");
+}
+
+.clock-icon {
+	background-image: url("./images/clock.png");
+}
+
+.icon-benefit {
+	margin: 0 20px;
+	padding: 10px 20px;
+}
+
+.ourStaff-title {
+	font-size: 30px;
+}
+
+.ourStaff-block-content {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.staff-image {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.staff-div {
+	text-align: center;
+}
+
+.staff-div h6 {
+	margin: 20px 0 0 0;
+	font-size: 20px;
+}
+
+.staff-div p {
+	margin: 0;
 }

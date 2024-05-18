@@ -1,5 +1,5 @@
 .footer {
-	margin-top: auto;
+	margin-top: 100px;
 	bottom: 0;
 	width: 100%;
 	padding-top: 20px;
@@ -23,6 +23,10 @@
 
 .footer-nav-item {
 	margin: 0 5px;
+}
+
+.footer-nav-item a {
+	color: #1870c9;
 }
 
 .footer-nav-link {

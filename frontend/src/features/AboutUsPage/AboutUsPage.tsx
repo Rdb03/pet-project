@@ -1,5 +1,10 @@
 import MainBlock from '../../components/MainBlock/MainBlock.tsx'
 import './AboutUsPage.css'
+import bro1 from './staff-Image/bro1.jpg'
+import bro2 from './staff-Image/bro2.jpg'
+import bro3 from './staff-Image/bro3.jpg'
+import bro4 from './staff-Image/bro4.jpg'
+import bro5 from './staff-Image/bro5.jpg'
 
 const aboutUsPage = () => {
 	return (
@@ -78,7 +83,7 @@ const aboutUsPage = () => {
 				<h6 className='benefit-title'>Among the advantages</h6>
 				<div className='benefit-block-cards'>
 					<div className='benefit-block-card'>
-						<span></span>
+						<span className='icon icon-benefit key-icon'></span>
 						<div>
 							<h6 className='card-title'>For applicants</h6>
 							<p>For job seekers, our platform will offer a convenient and easy way to find the right job, as well as
@@ -86,12 +91,42 @@ const aboutUsPage = () => {
 						</div>
 					</div>
 					<div className='benefit-block-card'>
-						<span></span>
+						<span className='icon icon-benefit clock-icon'></span>
 						<div>
 							<h6 className='card-title'>For employers</h6>
 							<p>For employers, we will provide access to quality candidates and tools to manage the vacancy and
 								the hiring process.</p>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div className='ourStaff-block'>
+				<h6 className='ourStaff-title'>Our staff</h6>
+				<div className='ourStaff-block-content'>
+					<div className='staff-div'>
+						<img className='staff-image' src={bro1} alt='' />
+						<h6>Kate Preston</h6>
+						<p>Chief <br /> recruiter</p>
+					</div>
+					<div className='staff-div'>
+						<img className='staff-image' src={bro2} alt='' />
+						<h6>Jon Jones</h6>
+						<p>Business Development <br /> Director</p>
+					</div>
+					<div className='staff-div'>
+						<img className='staff-image' src={bro3} alt='' />
+						<h6>Danny Abadie</h6>
+						<p>Recruitment <br /> manager</p>
+					</div>
+					<div className='staff-div'>
+						<img className='staff-image' src={bro4} alt='' />
+						<h6>Marcelo Aguiar</h6>
+						<p>HR-specialist</p>
+					</div>
+					<div className='staff-div'>
+						<img className='staff-image' src={bro5} alt='' />
+						<h6>Juan Adams</h6>
+						<p>Recruiter's <br />assistant</p>
 					</div>
 				</div>
 			</div>
