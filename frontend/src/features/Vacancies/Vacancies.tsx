@@ -9,9 +9,9 @@ const Vacancies = () => {
 			<div className='vacancies-cards'>
 				<div className='vacancies-card'>
 					<img src={company} alt='card-logo' />
-					<h6 className='card-title'>Менеджер по продажам услуг</h6>
-					<p className='card-text'>Satcom, Бишкек</p>
-					<p className='card-salary'>от 25 000 до 35 000</p>
+					<h6 className='card-title'>Service Sales Manager</h6>
+					<p className='card-text'>Satcom, Washington</p>
+					<p className='card-salary'>5 000 to 7 000</p>
 				</div>
 			</div>
 			<Button sx={{
